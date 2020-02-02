@@ -1,14 +1,32 @@
 import React, {useEffect, useState} from 'react';
-import {random as _random, times as _times, differenceWith as _differenceWith, isEqual as _isEqual} from 'lodash';
+import {
+  random as _random,
+  times as _times,
+  differenceWith as _differenceWith,
+  isEqual as _isEqual,
+  orderBy as _orderBy,
+} from 'lodash';
 
 import './App.css';
 
 function App() {
+  /*
+   * Generate a random board of 10x10 blocks.​ A simple grid of colours (Done)
+   * When you click on a block with one or more neighbours of the same colour, blocks with matching colour are removed and need to disappear (Done)
+   * Blocks on the diagonal do not count as neighbours. (Done)
+   * You should not be able to remove a single block. (Done)
+   * Bonus: Can you think how you'd do scoring? (No need to implement this).
+   * Answer: We can count the matched blocks and give score depending on that.
+   * TODO After you remove the blocks, the remaining blocks above the ones that were removed need to fall down. (40% Done) switch on the "removeAndReplaceFlag" state
+   * TODO The game ends when the grid is empty or when no more blocks can be removed. (Didn't have time to reach this point)
+   * TODO Write tests. (Didn't have time to do that)
+   * */
   useEffect(() => {
     createBlocksMatrix();
   }, []);
 
   const [gridBlocksArray, setGridBlocksArray] = useState([]);
+  const [removeAndReplaceFlag, setRemoveAndReplaceFlag] = useState(false); //this feature is 40% finished.
   const gridData = {rowsLength: 10, columnsLength: 10, columnWidth: 50};
   const colorsArray = ['red', 'green', 'blue', 'yellow'];
   const blockObject = (rowIndex, columnIndex) => {
@@ -18,8 +36,8 @@ function App() {
       color: colorsArray[_random(colorsArray.length - 1)],
     };
   };
-
   let matchedBlocksArray = [];
+
   const createBlocksMatrix = () => {
     const grid = _times(gridData.rowsLength, rowIndex => {
       return _times(gridData.columnsLength, columnIndex => blockObject(rowIndex, columnIndex));
@@ -27,7 +45,7 @@ function App() {
 
     setGridBlocksArray(grid);
   };
-  const checkTheSiblings = (blockData, isCleanArray) => {
+  const checkTheSiblings = (blockData, isCleanArray) => { //Get all the matched siblings of the selected block
     isCleanArray && (matchedBlocksArray = []); //Clean the array with every new click
     matchedBlocksArray.push(blockData);
 
@@ -39,10 +57,13 @@ function App() {
       uniqueBlocksArray.map(block => checkTheSiblings(block));
     }
     else {
-      (matchedBlocksArray.length > 1) && removeMatchedBlocks();
+      if (matchedBlocksArray.length > 1) {
+        removeMatchedBlocks();
+        removeAndReplaceFlag && moveTopSiblings();
+      }
     }
   };
-  const getBlockSiblings = ({rowIndex, columnIndex}) => {
+  const getBlockSiblings = ({rowIndex, columnIndex}) => { //Get all the matched level1 siblings of the selected block
     const blockSiblingsArray = [];
     const currentBlockColor = gridBlocksArray[rowIndex][columnIndex].color;
     const leftBlockColor = (columnIndex - 1 >= 0) && gridBlocksArray[rowIndex][columnIndex - 1].color;
@@ -66,11 +87,41 @@ function App() {
     return blockSiblingsArray;
   };
   const removeMatchedBlocks = () => {
-    const tmp = [...gridBlocksArray];
+    const gridBlocksArrayClone = [...gridBlocksArray];
 
-    matchedBlocksArray.map(blockData => tmp[blockData.rowIndex][blockData.columnIndex].color = 'white');
+    matchedBlocksArray.map(blockData => gridBlocksArrayClone[blockData.rowIndex][blockData.columnIndex].isHidden = true);
+    setGridBlocksArray(gridBlocksArrayClone);
+  };
+  const moveTopSiblings = () => {
+    const sortedArray = _orderBy(matchedBlocksArray, ['rowIndex', 'columnIndex'], 'desc');
+    let gridBlocksArrayClone = [...gridBlocksArray];
+    let selectedColumnsIndex = [];
 
-    setGridBlocksArray(tmp);
+    const lowestBlockColumns = sortedArray.filter(obj => {
+      if (!selectedColumnsIndex.includes(obj.columnIndex)) {
+        selectedColumnsIndex.push(obj.columnIndex);
+        return obj;
+      }
+    });
+
+    lowestBlockColumns.map(blockData => {
+      let steps = 1;
+
+      for (let i = 1; i <= blockData.rowIndex; i++) {
+        let currentBlock = gridBlocksArrayClone[blockData.rowIndex - i][blockData.columnIndex];
+
+        if (!currentBlock.isHidden) {
+          gridBlocksArrayClone[blockData.rowIndex - i][blockData.columnIndex] = {...currentBlock, rowIndex: currentBlock.rowIndex + steps};
+
+          console.log('steps', gridBlocksArrayClone[blockData.rowIndex - i][blockData.columnIndex], steps);
+        }
+        else {
+          steps += 1;
+        }
+      }
+    });
+
+    setGridBlocksArray(gridBlocksArrayClone);
   };
 
   return (
@@ -92,6 +143,7 @@ function App() {
                                                              top: `${blockData.rowIndex * gridData.columnWidth}px`,
                                                              left: `${blockData.columnIndex * gridData.columnWidth}px`,
                                                              backgroundColor: blockData.color,
+                                                             display: blockData.isHidden && 'none',
                                                            }}
                                                            onClick={() => checkTheSiblings({
                                                                                              rowIndex: blockData.rowIndex,

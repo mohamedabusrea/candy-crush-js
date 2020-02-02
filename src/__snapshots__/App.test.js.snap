@@ -1,0 +1,1300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div
+          class="GameContainer"
+        >
+          <div
+            class="GameContainer__title"
+          >
+            Candy Crush Game
+          </div>
+          <div
+            class="GameContainer__body"
+            style="width: 500px; height: 500px;"
+          >
+            <div
+              class="GameContainer__block"
+              style="top: 0px; left: 0px; background-color: yellow;"
+            >
+              0
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 0px; left: 50px; background-color: green;"
+            >
+              1
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 0px; left: 100px; background-color: red;"
+            >
+              2
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 0px; left: 150px; background-color: yellow;"
+            >
+              3
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 0px; left: 200px; background-color: yellow;"
+            >
+              4
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 0px; left: 250px; background-color: red;"
+            >
+              5
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 0px; left: 300px; background-color: green;"
+            >
+              6
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 0px; left: 350px; background-color: blue;"
+            >
+              7
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 0px; left: 400px; background-color: yellow;"
+            >
+              8
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 0px; left: 450px; background-color: red;"
+            >
+              9
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 50px; left: 0px; background-color: blue;"
+            >
+              10
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 50px; left: 50px; background-color: red;"
+            >
+              11
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 50px; left: 100px; background-color: yellow;"
+            >
+              12
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 50px; left: 150px; background-color: yellow;"
+            >
+              13
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 50px; left: 200px; background-color: blue;"
+            >
+              14
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 50px; left: 250px; background-color: green;"
+            >
+              15
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 50px; left: 300px; background-color: green;"
+            >
+              16
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 50px; left: 350px; background-color: blue;"
+            >
+              17
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 50px; left: 400px; background-color: red;"
+            >
+              18
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 50px; left: 450px; background-color: red;"
+            >
+              19
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 100px; left: 0px; background-color: blue;"
+            >
+              20
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 100px; left: 50px; background-color: green;"
+            >
+              21
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 100px; left: 100px; background-color: yellow;"
+            >
+              22
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 100px; left: 150px; background-color: blue;"
+            >
+              23
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 100px; left: 200px; background-color: red;"
+            >
+              24
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 100px; left: 250px; background-color: green;"
+            >
+              25
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 100px; left: 300px; background-color: blue;"
+            >
+              26
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 100px; left: 350px; background-color: blue;"
+            >
+              27
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 100px; left: 400px; background-color: red;"
+            >
+              28
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 100px; left: 450px; background-color: green;"
+            >
+              29
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 150px; left: 0px; background-color: green;"
+            >
+              30
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 150px; left: 50px; background-color: blue;"
+            >
+              31
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 150px; left: 100px; background-color: green;"
+            >
+              32
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 150px; left: 150px; background-color: blue;"
+            >
+              33
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 150px; left: 200px; background-color: blue;"
+            >
+              34
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 150px; left: 250px; background-color: red;"
+            >
+              35
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 150px; left: 300px; background-color: red;"
+            >
+              36
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 150px; left: 350px; background-color: green;"
+            >
+              37
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 150px; left: 400px; background-color: blue;"
+            >
+              38
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 150px; left: 450px; background-color: green;"
+            >
+              39
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 200px; left: 0px; background-color: red;"
+            >
+              40
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 200px; left: 50px; background-color: red;"
+            >
+              41
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 200px; left: 100px; background-color: yellow;"
+            >
+              42
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 200px; left: 150px; background-color: red;"
+            >
+              43
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 200px; left: 200px; background-color: blue;"
+            >
+              44
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 200px; left: 250px; background-color: blue;"
+            >
+              45
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 200px; left: 300px; background-color: blue;"
+            >
+              46
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 200px; left: 350px; background-color: yellow;"
+            >
+              47
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 200px; left: 400px; background-color: red;"
+            >
+              48
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 200px; left: 450px; background-color: blue;"
+            >
+              49
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 250px; left: 0px; background-color: yellow;"
+            >
+              50
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 250px; left: 50px; background-color: yellow;"
+            >
+              51
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 250px; left: 100px; background-color: red;"
+            >
+              52
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 250px; left: 150px; background-color: blue;"
+            >
+              53
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 250px; left: 200px; background-color: red;"
+            >
+              54
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 250px; left: 250px; background-color: blue;"
+            >
+              55
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 250px; left: 300px; background-color: blue;"
+            >
+              56
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 250px; left: 350px; background-color: blue;"
+            >
+              57
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 250px; left: 400px; background-color: blue;"
+            >
+              58
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 250px; left: 450px; background-color: green;"
+            >
+              59
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 300px; left: 0px; background-color: blue;"
+            >
+              60
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 300px; left: 50px; background-color: yellow;"
+            >
+              61
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 300px; left: 100px; background-color: blue;"
+            >
+              62
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 300px; left: 150px; background-color: green;"
+            >
+              63
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 300px; left: 200px; background-color: yellow;"
+            >
+              64
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 300px; left: 250px; background-color: yellow;"
+            >
+              65
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 300px; left: 300px; background-color: blue;"
+            >
+              66
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 300px; left: 350px; background-color: green;"
+            >
+              67
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 300px; left: 400px; background-color: blue;"
+            >
+              68
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 300px; left: 450px; background-color: green;"
+            >
+              69
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 350px; left: 0px; background-color: yellow;"
+            >
+              70
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 350px; left: 50px; background-color: blue;"
+            >
+              71
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 350px; left: 100px; background-color: red;"
+            >
+              72
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 350px; left: 150px; background-color: green;"
+            >
+              73
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 350px; left: 200px; background-color: red;"
+            >
+              74
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 350px; left: 250px; background-color: green;"
+            >
+              75
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 350px; left: 300px; background-color: blue;"
+            >
+              76
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 350px; left: 350px; background-color: green;"
+            >
+              77
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 350px; left: 400px; background-color: yellow;"
+            >
+              78
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 350px; left: 450px; background-color: yellow;"
+            >
+              79
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 400px; left: 0px; background-color: green;"
+            >
+              80
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 400px; left: 50px; background-color: blue;"
+            >
+              81
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 400px; left: 100px; background-color: green;"
+            >
+              82
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 400px; left: 150px; background-color: red;"
+            >
+              83
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 400px; left: 200px; background-color: green;"
+            >
+              84
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 400px; left: 250px; background-color: red;"
+            >
+              85
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 400px; left: 300px; background-color: yellow;"
+            >
+              86
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 400px; left: 350px; background-color: blue;"
+            >
+              87
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 400px; left: 400px; background-color: red;"
+            >
+              88
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 400px; left: 450px; background-color: green;"
+            >
+              89
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 450px; left: 0px; background-color: blue;"
+            >
+              90
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 450px; left: 50px; background-color: green;"
+            >
+              91
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 450px; left: 100px; background-color: yellow;"
+            >
+              92
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 450px; left: 150px; background-color: green;"
+            >
+              93
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 450px; left: 200px; background-color: yellow;"
+            >
+              94
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 450px; left: 250px; background-color: yellow;"
+            >
+              95
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 450px; left: 300px; background-color: green;"
+            >
+              96
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 450px; left: 350px; background-color: red;"
+            >
+              97
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 450px; left: 400px; background-color: red;"
+            >
+              98
+            </div>
+            <div
+              class="GameContainer__block"
+              style="top: 450px; left: 450px; background-color: yellow;"
+            >
+              99
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div
+        class="GameContainer"
+      >
+        <div
+          class="GameContainer__title"
+        >
+          Candy Crush Game
+        </div>
+        <div
+          class="GameContainer__body"
+          style="width: 500px; height: 500px;"
+        >
+          <div
+            class="GameContainer__block"
+            style="top: 0px; left: 0px; background-color: yellow;"
+          >
+            0
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 0px; left: 50px; background-color: green;"
+          >
+            1
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 0px; left: 100px; background-color: red;"
+          >
+            2
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 0px; left: 150px; background-color: yellow;"
+          >
+            3
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 0px; left: 200px; background-color: yellow;"
+          >
+            4
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 0px; left: 250px; background-color: red;"
+          >
+            5
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 0px; left: 300px; background-color: green;"
+          >
+            6
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 0px; left: 350px; background-color: blue;"
+          >
+            7
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 0px; left: 400px; background-color: yellow;"
+          >
+            8
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 0px; left: 450px; background-color: red;"
+          >
+            9
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 50px; left: 0px; background-color: blue;"
+          >
+            10
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 50px; left: 50px; background-color: red;"
+          >
+            11
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 50px; left: 100px; background-color: yellow;"
+          >
+            12
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 50px; left: 150px; background-color: yellow;"
+          >
+            13
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 50px; left: 200px; background-color: blue;"
+          >
+            14
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 50px; left: 250px; background-color: green;"
+          >
+            15
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 50px; left: 300px; background-color: green;"
+          >
+            16
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 50px; left: 350px; background-color: blue;"
+          >
+            17
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 50px; left: 400px; background-color: red;"
+          >
+            18
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 50px; left: 450px; background-color: red;"
+          >
+            19
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 100px; left: 0px; background-color: blue;"
+          >
+            20
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 100px; left: 50px; background-color: green;"
+          >
+            21
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 100px; left: 100px; background-color: yellow;"
+          >
+            22
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 100px; left: 150px; background-color: blue;"
+          >
+            23
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 100px; left: 200px; background-color: red;"
+          >
+            24
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 100px; left: 250px; background-color: green;"
+          >
+            25
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 100px; left: 300px; background-color: blue;"
+          >
+            26
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 100px; left: 350px; background-color: blue;"
+          >
+            27
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 100px; left: 400px; background-color: red;"
+          >
+            28
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 100px; left: 450px; background-color: green;"
+          >
+            29
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 150px; left: 0px; background-color: green;"
+          >
+            30
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 150px; left: 50px; background-color: blue;"
+          >
+            31
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 150px; left: 100px; background-color: green;"
+          >
+            32
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 150px; left: 150px; background-color: blue;"
+          >
+            33
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 150px; left: 200px; background-color: blue;"
+          >
+            34
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 150px; left: 250px; background-color: red;"
+          >
+            35
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 150px; left: 300px; background-color: red;"
+          >
+            36
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 150px; left: 350px; background-color: green;"
+          >
+            37
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 150px; left: 400px; background-color: blue;"
+          >
+            38
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 150px; left: 450px; background-color: green;"
+          >
+            39
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 200px; left: 0px; background-color: red;"
+          >
+            40
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 200px; left: 50px; background-color: red;"
+          >
+            41
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 200px; left: 100px; background-color: yellow;"
+          >
+            42
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 200px; left: 150px; background-color: red;"
+          >
+            43
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 200px; left: 200px; background-color: blue;"
+          >
+            44
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 200px; left: 250px; background-color: blue;"
+          >
+            45
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 200px; left: 300px; background-color: blue;"
+          >
+            46
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 200px; left: 350px; background-color: yellow;"
+          >
+            47
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 200px; left: 400px; background-color: red;"
+          >
+            48
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 200px; left: 450px; background-color: blue;"
+          >
+            49
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 250px; left: 0px; background-color: yellow;"
+          >
+            50
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 250px; left: 50px; background-color: yellow;"
+          >
+            51
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 250px; left: 100px; background-color: red;"
+          >
+            52
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 250px; left: 150px; background-color: blue;"
+          >
+            53
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 250px; left: 200px; background-color: red;"
+          >
+            54
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 250px; left: 250px; background-color: blue;"
+          >
+            55
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 250px; left: 300px; background-color: blue;"
+          >
+            56
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 250px; left: 350px; background-color: blue;"
+          >
+            57
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 250px; left: 400px; background-color: blue;"
+          >
+            58
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 250px; left: 450px; background-color: green;"
+          >
+            59
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 300px; left: 0px; background-color: blue;"
+          >
+            60
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 300px; left: 50px; background-color: yellow;"
+          >
+            61
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 300px; left: 100px; background-color: blue;"
+          >
+            62
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 300px; left: 150px; background-color: green;"
+          >
+            63
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 300px; left: 200px; background-color: yellow;"
+          >
+            64
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 300px; left: 250px; background-color: yellow;"
+          >
+            65
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 300px; left: 300px; background-color: blue;"
+          >
+            66
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 300px; left: 350px; background-color: green;"
+          >
+            67
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 300px; left: 400px; background-color: blue;"
+          >
+            68
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 300px; left: 450px; background-color: green;"
+          >
+            69
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 350px; left: 0px; background-color: yellow;"
+          >
+            70
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 350px; left: 50px; background-color: blue;"
+          >
+            71
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 350px; left: 100px; background-color: red;"
+          >
+            72
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 350px; left: 150px; background-color: green;"
+          >
+            73
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 350px; left: 200px; background-color: red;"
+          >
+            74
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 350px; left: 250px; background-color: green;"
+          >
+            75
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 350px; left: 300px; background-color: blue;"
+          >
+            76
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 350px; left: 350px; background-color: green;"
+          >
+            77
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 350px; left: 400px; background-color: yellow;"
+          >
+            78
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 350px; left: 450px; background-color: yellow;"
+          >
+            79
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 400px; left: 0px; background-color: green;"
+          >
+            80
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 400px; left: 50px; background-color: blue;"
+          >
+            81
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 400px; left: 100px; background-color: green;"
+          >
+            82
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 400px; left: 150px; background-color: red;"
+          >
+            83
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 400px; left: 200px; background-color: green;"
+          >
+            84
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 400px; left: 250px; background-color: red;"
+          >
+            85
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 400px; left: 300px; background-color: yellow;"
+          >
+            86
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 400px; left: 350px; background-color: blue;"
+          >
+            87
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 400px; left: 400px; background-color: red;"
+          >
+            88
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 400px; left: 450px; background-color: green;"
+          >
+            89
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 450px; left: 0px; background-color: blue;"
+          >
+            90
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 450px; left: 50px; background-color: green;"
+          >
+            91
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 450px; left: 100px; background-color: yellow;"
+          >
+            92
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 450px; left: 150px; background-color: green;"
+          >
+            93
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 450px; left: 200px; background-color: yellow;"
+          >
+            94
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 450px; left: 250px; background-color: yellow;"
+          >
+            95
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 450px; left: 300px; background-color: green;"
+          >
+            96
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 450px; left: 350px; background-color: red;"
+          >
+            97
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 450px; left: 400px; background-color: red;"
+          >
+            98
+          </div>
+          <div
+            class="GameContainer__block"
+            style="top: 450px; left: 450px; background-color: yellow;"
+          >
+            99
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

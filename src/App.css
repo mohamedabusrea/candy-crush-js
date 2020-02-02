@@ -1,38 +1,51 @@
+:root {
+    --color-bg: #282c34;
+    --color-white: #fff;
+    --color-red: #ff4143;
+    --color-green: #2a8026;
+    --color-blue: #2f33ff;
+    --color-yellow: #ffff4f;
+    --border-radius: 4px;
+    --font-size-lg: 26px;
+    --default-spacing: 20px;
+    --body-width: 500px;
+}
+
 .App {
-  text-align: center;
+    background-color: var(--color-bg);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.GameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.GameContainer__title {
+    font-family: Helvetica, serif;
+    font-weight: 600;
+    font-size: var(--font-size-lg);
+    color: #48fcff;
+    margin: var(--default-spacing) 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.GameContainer__body {
+    position: relative;
+    border-radius: var(--border-radius);
+    background-color: var(--color-white);
+    overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.GameContainer__block {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
